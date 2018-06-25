@@ -10,9 +10,9 @@ bot.on("ready", async () => {
 
 var http = require("http");
 setInterval(function() {
-    http.get("http://spainbot.herokuapp.com/%22);
+   http.get("http://spainbot.herokuapp.com");
 }, 900000);
-
+  
 bot.on("message", async message => {
   if(message.author.bot) return;
   if(message.channel.type === "dm") return;
