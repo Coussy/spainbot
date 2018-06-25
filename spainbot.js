@@ -16,7 +16,7 @@ bot.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
-  if(cmd include `hello`){
+  if(cmd === `hello`){
     return message.channel.send("Hola!");
   }
 
