@@ -90,4 +90,4 @@ bot.on('message', message =>{
 
 })
 
-bot.login(NDU4Njg4NTU1NDE4NjQ4NTc2.DhPcCg.hYcUbt-DdOqaDSOMtCeucP1EchM);
+bot.login(process.env.trouducul);
